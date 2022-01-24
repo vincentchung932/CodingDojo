@@ -1,0 +1,55 @@
+code snippet1
+var   |   Values
+NaN   |  NaN
+output: 'hello' 'Dojo'
+
+code snippet2
+var      |   Values
+result   |  15
+output: 'hello' 'result is' 15
+
+code snippet3
+var      |   Values
+result   |  18
+output: 'num is' 3 'x is' 18
+
+code snippet4
+var      |   Values
+num      |    15
+result   |    10
+output: 15 10 10 15
+
+
+code snippet5
+var      |   Values
+num      |    15
+result   |    20
+output: 15 10 20 15
+
+
+code snippet6
+var      |   Values
+result   |   16
+output: "num is" 3 "num is" 5  16
+
+code snippet7
+var      |   Values
+num1     |   2     3
+num2     |   3     5 
+output: 5 8
+
+
+code snippet8
+var      |   Values
+NaN      |   NaN
+output: 2,5  3,8
+
+code snippet9
+var      |   Values
+result   | 13
+output: sum is 5  sum is 8 result is 13
+
+code snippet  10
+var      |   Values
+result   |   19
+output: sum is 5 sum is 3 sum is 6 sum is 3 sum is 5 sum is 8 result is 19

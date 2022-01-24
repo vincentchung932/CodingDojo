@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#flex{
+    display: flex;
+}
+
+
+#red {
+    flex: 1;
+    height: 500px;
+    background-color: red;
+
+}
+
+#green {
+    flex: 1;
+    height: 500px;
+    background-color: green;
+
+}
+
+
+
+#blue {
+    flex: 1;
+    height: 500px;
+    background-color: blue;
+}
+
+#flex2{
+    display: flex;
+    justify-content: space-around;
+    background-color: thistle;
+}
+
+.yellow{
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;    
+}
+
+#flex3 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: powderblue;
+    height: 200px;
+    align-items: center;
+}
+
+.pink {
+    width: 120px;
+    height: 120px;
+    background-color: pink;
+}
+#dogee {
+    transform: scaleX(-1);
+}

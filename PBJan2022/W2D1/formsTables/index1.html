@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and Table</title>
+</head>
+
+<body>
+    <h1>Forms and Tables</h1>
+    <p>You will be making forms and tables all the dang time in this program</p>
+    <h2>Forms</h2>
+    <p>Forms are the ways in which we get input from the user.</p>
+    <form>
+        <!-- Form controls-->
+        <!-- Every HTML element has a default display property value-->
+        <!-- Divs have a block value for their display property-->
+        <!-- Labels and in puts have an inline-->
+        <div>
+            <label for="your_name">Your name:</label>
+            <input type="text" name="your_name" id="your_name">
+        </div>
+        <div>
+            <label for="birthday">Birthday:</label>
+            <input type="date" name="birthday" id="birthday">
+        </div>
+        <div>
+            <label for="fav_tv">Favorite TV show:</label>
+            <select name="fav_tv" id="fav_tv">
+                <option value="no_choice" selected disabled hidden> </option>
+                <option value="stranger_things">Stranger Things</option>
+                <option value="witcher">Witcher</option>
+                <option value="the_boys">The Boys</option>
+            </select>
+        </div>
+        <div>
+            <input type="submit" value="SEND">
+        </div>
+    </form>
+
+    <h2>Tables</h2>
+    <p>Tables are a great way to display related information.</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Location</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Vincent</td>
+                <td>vincent@gmail.com</td>
+                <td>SF</td>
+            </tr>
+            <tr>
+                <td>Wanda</td>
+                <td>jk@gmail.com</td>
+                <td>SF</td>
+            </tr>
+            <tr>
+                <td>WandaHAHA</td>
+                <td>jkhaha@gmail.com</td>
+                <td>taiwan</td>
+            </tr>
+            <tr>
+                <td colspan="2">Fozzy Bear</td>
+                <td>NY</td>
+
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
