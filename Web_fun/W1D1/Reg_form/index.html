@@ -34,11 +34,37 @@
     </div>
     <div>
         <label for="gender">Gender Identity:</label>
-        <input type="radio" name="font" value="bold" id="bold">
-        <label for="bold"><strong>Bold</strong><label>
-        <input type="radio" name="font" value="normal" id="normal">
-        <label for="normal">Normal<label>
-
+        <br>
+        <input type="radio" name="font" value="male" id="male">
+        <label for="male">Male<label>
+        <input type="radio" name="font" value="female" id="female">
+        <label for="female">Female<label>
+        <input type="radio" name="font" value="Non-binary" id="Non-binary">
+        <label for="Non-binary">Non-binary<label>
+        <input type="radio" name="font" value="not_prefer" id="not_prefer">
+        <label for="not_prefer">I prefer not to answer<label>
     </div>
+    <div>
+        <label for="myself">A short description about myself:</label>
+        <br>
+        <textarea name="myself" id="myself" cols="30" rows="3"></textarea>
+    </div>
+    <div>
+        <label for="language">Favorite Language:</label>
+        <select name="language" id="language">
+            <option value="JS_script">JavaScript</option>
+            <option value="html">Html</option>
+            <option value="CSS">CSS</option>
+        </select>
+    </div>
+    <div>
+        <input type="checkbox" name="receive" id="receive" checked>
+        <label for="checkbox">Yes,I would like to receive periodic email updates</label>
+    </div>
+    <div>
+        <input type="submit" value="Create Account">
+        
+    </div>
+    <p>*Indicates a required field</p>
 </body>
 </html>
