@@ -1,4 +1,4 @@
 # Hello World
 
-2022/1/24
+ChienHsin Chung homework1
 This is a readme for first project!
