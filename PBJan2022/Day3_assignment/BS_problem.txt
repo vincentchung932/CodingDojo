@@ -1,8 +1,0 @@
-jug1:5-gallon jug  jug2:3-gallon jug  
-
-step1: fill 5-gallon jug from fountain                                       (jug1:5 jug2:0)
-step2: pour 5-gallon jug-> 3-gallon jug                                      (jug1:2 jug2:3)
-step3: empty 3-gallon jug                                                    (jug1:2 jug2:0)
-step4: pour 2-gallon water remaining in 5-gallon jug into to 3-gallon jug    (jug1:0 jug2:2)
-step5: fill 5-gallon jug from fountain                                       (jug1:5 jug2:2)
-step6: pour 1-gallon water in 5-gallon jug into 3-gallon tank                (jug1:4 jug2:3)

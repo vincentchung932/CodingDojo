@@ -1,8 +1,0 @@
-Challenge 1: 
-output: "Never","Going","To","Give","You","Up"
-
-Challenge 2:
-output:2,2,4,6,6,12,8,20,10,30
-
-Challenge 3:
-output: true,true,true
